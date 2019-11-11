@@ -1,48 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS -->
+    <link href="/css/styles.css" rel="stylesheet" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- CSS -->
-  <link href="/css/styles.css" rel="stylesheet">
-
-  <title>CSS Practice</title>
-</head>
-<body>
-  <header id="top-page">
-    <nav class="navbar">
-      <ul>
-        <li><a class="active" href="/blog.html">Blog</a></li>
-        <li><a href="/index.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
-   <section id="blog">
-     <div class="blog-text">
-       <h2>Blog</h2>
-       <p>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sint unde dolorum tempora ipsam tempore! Possimus
-         ipsa consequuntur debitis delectus maxime molestias vero nobis voluptatibus, dolor, alias temporibus voluptatum
-         ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facilis aliquid necessitatibus quas, mollitia
-         error impedit ipsam harum voluptatibus inventore libero aperiam! Labore nobis earum itaque veniam quis fugiat
-         sunt.
-       </p>
-       <p>
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ullam consequuntur ipsum enim maxime porro quidem
-         molestiae quos tempora eos dicta laborum, necessitatibus, laboriosam, repudiandae ad ducimus. Nostrum,
-         perferendis omnis?Vel doloremque dolorem tempore commodi nesciunt quam quas, laudantium atque iusto beatae
-         nulla voluptatum excepturi aut neque qui blanditiis eligendi deserunt. Saepe nulla ipsam laudantium provident
-         quis inventore corporis voluptate?
-       </p>
-     </div>
-   </section>
-   <footer class="foot">
-     <div class="contact">
-       <address>Contact <a class="email" href="mailto:me@ HTML-CSS-JS.com">email</a></address>
-       <p>All Rights &copy; 2019</p>
-     </div>
-   </footer>
-</body>
+    <title>CSS Practice</title>
+  </head>
+  <body>
+   <header id="top-page">
+     <nav class="navbar">
+       <ul>
+         <!-- <li ><a class="active" href="/blog.html">Blog</a></li> -->
+         <li class="dropdown">
+           <a href="javascript:void(0)" class="active dropbtn">Blog</a>
+           <div class="dropdown-content">
+             <a href="/blog.html">Posts</a>
+             <a href="week-one.html">One</a>
+           </div>
+         </li>
+         <li><a href="/index.html">About</a></li>
+       </ul>
+     </nav>
+   </header>
+    <section id="blog">
+      <h2>Lorem</h2>
+      <div class="blog-text">
+        <h4><a href="week-one.html">Week One</a></h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sint
+          unde dolorum tempora ipsam tempore! Possimus ipsa consequuntur debitis
+          delectus maxime molestias vero nobis voluptatibus, dolor, alias
+          temporibus voluptatum ea? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ad facilis aliquid necessitatibus quas, mollitia
+          error impedit ipsam harum voluptatibus inventore libero aperiam!
+          Labore nobis earum itaque veniam quis fugiat sunt.
+        </p>
+      </div>
+      <hr>
+      <div class="blog-text">
+        <h4><a href="week-one.html">Week Two</a></h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sint
+          unde dolorum tempora ipsam tempore! Possimus ipsa consequuntur debitis
+          delectus maxime molestias vero nobis voluptatibus, dolor, alias
+          temporibus voluptatum ea? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ad facilis aliquid necessitatibus quas, mollitia
+          error impedit ipsam harum voluptatibus inventore libero aperiam!
+          Labore nobis earum itaque veniam quis fugiat sunt.
+        </p>
+      </div>
+      <hr>
+      <div class="blog-text">
+        <h4><a href="week-one.html">Week Two</a></h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sint
+          unde dolorum tempora ipsam tempore! Possimus ipsa consequuntur debitis
+          delectus maxime molestias vero nobis voluptatibus, dolor, alias
+          temporibus voluptatum ea? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ad facilis aliquid necessitatibus quas, mollitia
+          error impedit ipsam harum voluptatibus inventore libero aperiam!
+          Labore nobis earum itaque veniam quis fugiat sunt.
+        </p>
+      </div>
+      <hr>
+      <div class="blog-text">
+        <h4><a href="week-one.html">Week Two</a></h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sint
+          unde dolorum tempora ipsam tempore! Possimus ipsa consequuntur debitis
+          delectus maxime molestias vero nobis voluptatibus, dolor, alias
+          temporibus voluptatum ea? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ad facilis aliquid necessitatibus quas, mollitia
+          error impedit ipsam harum voluptatibus inventore libero aperiam!
+          Labore nobis earum itaque veniam quis fugiat sunt.
+        </p>
+      </div>
+      
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="week-one.html">1</a>
+        <a class="active" href="week-one.html">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </section>
+    <footer class="foot">
+      <div class="contact">
+        <address>
+          Contact <a class="email" href="mailto:me@ HTML-CSS-JS.com">email</a>
+        </address>
+        <p>All Rights &copy; 2019</p>
+      </div>
+    </footer>
+  </body>
 </html>
