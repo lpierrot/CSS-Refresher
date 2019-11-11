@@ -1,0 +1,115 @@
+/* CSS */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-spacing: normal;
+  line-height: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(58, 58, 56);
+}
+
+/* navigation */
+h1, h2 {
+  text-align: center;
+}
+
+.navbar {
+  display: block;
+  background: rgba(86, 88, 87, 0.171);
+  margin: 1em;
+  padding: 0 5px ;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  float: right;
+  
+}
+li a {
+  display: block;
+  padding: 14px 26px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  text-decoration-line: none;
+  border-radius: 5px;
+
+}
+li a:hover:not(.active) {
+  background-color: rgba(133, 238, 194, 0.842);
+}
+.active {
+  background-color: rgb(230, 164, 102);
+}
+
+/* About page */
+#about {
+  height: 100vh;
+  background-color: rgb(245,245,245);
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  
+}
+.about-img {
+  border: 5px solid #6369ff;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+}
+
+.intro p {
+  /* line-height: 1em; */
+  margin: 2em;
+  padding: 0 15px;
+  
+}
+.quote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  margin: 1em;
+  padding: 0;
+}
+.cite-quote {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+#blog {
+  height: 100vh;
+  background-color: rgb(245,245,245);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.blog-text p {
+  line-height: 1.6em;
+  margin: 3em;
+  padding: 0;
+  
+}
+.foot {
+  background-color: rgba(86, 88, 87, 0.171);
+  padding: 0;
+  margin: 1em;
+  color: white;
+  border-radius: 0;
+}
+.contact {
+  text-align: center;
+}
+.email {
+  color: white;
+}
