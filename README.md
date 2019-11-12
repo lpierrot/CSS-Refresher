@@ -1,5 +1,5 @@
 # CSS-Refresher
-### CSS Frontend Masters:
+### Blog:
 1. CSS layout
 2. Box Model
 
